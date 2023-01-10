@@ -50,7 +50,6 @@ function openModal(ref) {
   window.addEventListener("keydown", (e) => {
     if (e.keyCode === 27) {
       instance.close();
-      console.log(e);
       window.removeEventListener("keydown", e);
     }
   });
